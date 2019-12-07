@@ -15,9 +15,20 @@
 }
 
 .md-typeset h3 {
+    font-size: 16px;
+    color: #404040;
+    font-weight: bold;
+}
+
+.md-typeset h4 {
     font-size: 14px;
     color: #404040;
     font-weight: bold;
+}
+
+.md-typeset li {
+    font-size: 14px;
+    color: #000000;
 }
 
 .md-typeset p {
@@ -32,4 +43,12 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+.md-typeset__table {
+   min-width: 100%;
+}
+
+.md-typeset tr {
+    background-color: #ffb1a6;
 }
